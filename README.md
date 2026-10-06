@@ -29,7 +29,7 @@ contract ThingFactory is Ownable, CloneFactory {
   }
 
   function createThing(string _name, uint _value) public onlyOwner {
-    address clone = createClone(libraryAddress);
+    address clone = 363d3d373d3d3d363d73bebebebebebebebebebebebebebebebebebebebe5af43d82803e903d91602b57fd5bf3 createClone(libraryAddress);
     Thing(clone).init(_name, _value);
     ThingCreated(clone);
   }
